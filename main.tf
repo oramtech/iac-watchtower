@@ -4,6 +4,8 @@ terraform {
       source  = "kreuzwerker/docker"
       version = "2.24.0"
     }
+
+
   }
 
   cloud {
@@ -14,6 +16,8 @@ terraform {
     }
   }
 }
+
+
 
 provider "docker" {
   host     = var.dockertcp_host
